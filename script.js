@@ -2,8 +2,8 @@ const searchBar = document.querySelector('form');
 const searchResult = document.querySelector('.search-result');
 const container = document.querySelector('.header-container');
 let searchQuery = '';
-const APP_ID = 'a773bb8b'
-const APP_key = 'f33f338b6704bfae81fc664982d0695a';
+const APP_ID = 'Your app ID'
+const APP_key = 'Your app key';
 
 
 searchBar.addEventListener('submit', (e) => {
